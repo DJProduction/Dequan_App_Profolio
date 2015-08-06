@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--This block is for the design of the heading portion of the app-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#00BCD4"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="@string/app_title"
+        android:textColor="#ECEFF1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <!--This block shows the design of the layout below the heading portion-->
+    <LinearLayout
+        android:id="@+id/app_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <!--This block is for the design of the Popular Movies button-->
+        <Button
+            android:id="@+id/popular_movies_actionButton"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#4DD0E1"
+            android:elevation="2dp"
+            android:onClick="sendPopularMoviesButtonToast"
+            android:text="@string/popular_movies_button"
+            android:textStyle="bold"
+            android:translationZ="2dp"
+            android:typeface="serif" />
+
+        <!--This block is for the design of the Football Scores button-->
+        <Button
+            android:id="@+id/football_scores_actionButton"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#4DD0E1"
+            android:elevation="2dp"
+            android:onClick="sendFootballScoresButtonToast"
+            android:text="@string/football_scores_button"
+            android:textStyle="bold"
+            android:translationZ="2dp"
+            android:typeface="serif" />
+
+        <!--This block is for the design of the Library App button-->
+        <Button
+            android:id="@+id/library_app_actionButton"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#4DD0E1"
+            android:elevation="2dp"
+            android:onClick="sendLibraryAppButtonToast"
+            android:text="@string/library_app_button"
+            android:textStyle="bold"
+            android:translationZ="2dp"
+            android:typeface="serif" />
+
+        <!--This block is for the design of the Build It Bigger button-->
+        <Button
+            android:id="@+id/build_it_bigger_actionButton"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#4DD0E1"
+            android:elevation="2dp"
+            android:onClick="sendBuildItBiggerButtonToast"
+            android:text="@string/build_it_bigger_button"
+            android:textStyle="bold"
+            android:translationZ="2dp"
+            android:typeface="serif" />
+
+        <!--This block is for the design of the XYZ Reader button-->
+        <Button
+            android:id="@+id/xyz_reader_actionButton"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#4DD0E1"
+            android:elevation="2dp"
+            android:onClick="sendXYZ_ReaderButtonToast"
+            android:text="@string/xyz_reader"
+            android:textStyle="bold"
+            android:translationZ="2dp"
+            android:typeface="serif" />
+
+        <!--This block is for the design of the My Own App button-->
+        <Button
+            android:id="@+id/my_own_app_actionButton"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#00E676"
+            android:elevation="2dp"
+            android:onClick="sendMyOwnAppButtonToast"
+            android:text="@string/my_own_app"
+            android:textStyle="bold"
+            android:translationZ="2dp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
